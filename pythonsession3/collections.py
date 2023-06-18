@@ -31,12 +31,12 @@
 # myd = {'fred':3, 'jim':8, 'dave':42}
 # print("min:", min(myd), "max:", max(myd))
 #
-# cheese = ['Cheddar', 'Stilton', 'Cornish Yarg']
-# print(cheese[0])
-# print(cheese[1])
-# print(cheese[2])
-# cheese[-1] = 'Red Leicester'
-# print(cheese)
+cheese = ['Cheddar', 'Stilton', 'Cornish Yarg']
+print(cheese[0])
+print(cheese[1])
+print(cheese[2])
+cheese[-1] = 'Red Leicester'
+print(cheese)
 #
 # mytuple = ('eggs', 'bacon', 'spam', 'tea', 'beans')
 # print(mytuple[2:4])
@@ -52,10 +52,10 @@
 # del cheese[0]
 # print(cheese)
 #
-# # add item to the left or right
-# cheese[:0] = ['Cheshire', 'Chester']
-# cheese += ['Oak', 'Devon Blue']
-# print(cheese)
+# add item to the left or right
+cheese[:0] = ['Cheshire', 'Chester']
+cheese += ['Oak', 'Devon Blue']
+print(cheese)
 #
 # # pop
 # saved=cheese.pop(1)
