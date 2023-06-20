@@ -5,5 +5,5 @@ cheese[-1:] += ['Oke']
 cheese += ['Brie', 'Chester']
 print(cheese)
 
-
-
+cheese.append('Oke')
+cheese.extend('Brie', 'Chester')
