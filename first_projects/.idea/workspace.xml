@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55377f7f-599d-4eef-a4a0-b7fcbfb12c70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../code_wars/century.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code_wars/doubled_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code_wars/even_odd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code_wars/hero.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../code_wars/hoop_count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Youtube_practice4/classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/rock_paper_sciccors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello_world/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_world/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Youtube_practice4/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Youtube_practice4/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code_wars/even_odd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../code_wars/even_odd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonsession3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonsession3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../youtube_practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube_practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youtube_practice2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube_practice2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -36,3 +36,15 @@ for number in numbers1:
         uniques.append(number)
 print(uniques)
 
+# double a number
+def double_number(number):
+    doubled = number * 2
+    return doubled
+
+print(double_number(10))
+
+def double_number(num):
+    return num * 2
+
+print(double_number(5))
+

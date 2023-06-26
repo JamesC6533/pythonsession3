@@ -39,3 +39,15 @@ for row in matrix:
         # prints all list items as a row
         print(item)
 
+# remove every other item from a list
+def remove_every_other(mylist):
+    return mylist[::2]
+
+
+
+# slicing examples 
+def remove_every_other(my_list):
+    return (my_list[::-1])
+
+
+print(remove_every_other(["one", "two", "three", "four"]))
