@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8496d86-b1e4-40d4-9eac-605b1efcaf9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Youtube_practice4/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/rock_paper_sciccors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Youtube_practice4/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Youtube_practice4/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code_wars/even_odd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../code_wars/even_odd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first_projects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first_projects/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonsession3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonsession3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../youtube_practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube_practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../youtube_practice2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube_practice2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/rock_paper_scissors2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world4/arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world4/dates_times.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world4/enumerate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world4/formatting_datetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world4/labs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world4/range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonsession5/accountclasses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonsession5/breakout1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonsession5/vehicle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise14/rock_paper_sciccors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise14/rock_paper_sciccors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
