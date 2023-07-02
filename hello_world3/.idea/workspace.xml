@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08fd10c8-e246-4ccf-aaec-a9fdbacf1b61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../exercise14/rock_paper_scissors2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_world4/arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_world4/dates_times.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_world4/enumerate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_world4/formatting_datetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_world4/labs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_world4/range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworld_5/labs6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonsession5/accountclasses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonsession5/breakout1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonsession5/vehicle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_world/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_world/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise14/rock_paper_sciccors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise14/rock_paper_sciccors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world6/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world6/modulelib2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world6/moduleslib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world6/moduleslib1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world6/moduleslib3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world7/electrical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world7/navigation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_world7/why_import_star_is_bad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld_5/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
