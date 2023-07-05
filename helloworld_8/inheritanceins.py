@@ -1,12 +1,13 @@
 from inheritance import Animal
 
+
 class Insect(Animal):
     '''
     An animal with two sets of wings and 3 pairs of legs
     '''
 
     def __init__(self, species, name, sound, can_fly=True):
-        super().__init__(species, name,sound)
+        super().__init__(species, name, sound)
         self._can_fly = can_fly
 
     @property

@@ -77,7 +77,7 @@ print(person.weight)
 person.interests(["Football", "Cooking", "Films", "Socialising", "Gardening", "Ballet"])
 print(person.hobbies)
 
-person.remove_interest("Ballet")
+person.remove_interest("cheese")
 print(person.hobbies)
 
 person.person_info()
