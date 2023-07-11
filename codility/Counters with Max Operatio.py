@@ -51,5 +51,22 @@ result = solution(N, A)
 print(result)
 
 
+def solution(N, A):
+    counters = [0] * N
+    max_value = 0
+    for i in range(len(A)):
+        if A[i] <= N:
+            counters[A[i] - 1] += 1
+            max_value = max(max_value, counters[A[i] - 1])
+        else:
+            counters = [max_value] * N
+    return counters
+
+
+N = 5
+A = [3, 4, 4, 6, 1, 4, 4]
+result = solution(N, A)
+print(result)
+
 
 
