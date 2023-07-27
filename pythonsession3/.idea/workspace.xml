@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f7a1404-768c-49bb-8785-6c91f0800d0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Youtube_practice4/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/rock_paper_sciccors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_world/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_world/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Youtube_practice4/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Youtube_practice4/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code_wars/goose_jail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code_wars/even_odd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../code_wars/even_odd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first_projects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first_projects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code_wars/short_word_in_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../code_wars/short_word_in_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../youtube_practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube_practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../youtube_practice2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube_practice2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

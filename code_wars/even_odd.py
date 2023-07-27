@@ -4,6 +4,7 @@ def even_or_odd(number):
     else:
         return "Odd"
 
+
 print(even_or_odd(5))
 
 
@@ -14,11 +15,14 @@ def remove_every_other(my_list):
             result.append(my_list[index])
     return result
 
+
 my_list = ["Keep", "Remove", "Keep", "Remove", "Keep", "Remove"]
 result = remove_every_other(my_list)
 print(result)
 
 
+def remove_every_other(my_list):
+    return my_list[::2]
 
 
 
