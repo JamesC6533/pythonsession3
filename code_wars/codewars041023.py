@@ -32,7 +32,7 @@ def number_to_string(num):
 
 # bouncing balls
 def bouncing_ball(h, bounce, window):
-# Why is nobody calculating for the magnus effect aftr a certain height, I can't, but thought someone would. Step your game up
+
     if h <= 0 or bounce <= 0 or bounce >= 1 or window >= h:
         return -1
     count = 1
@@ -40,8 +40,6 @@ def bouncing_ball(h, bounce, window):
         h = h * bounce
         count += 2
     return count
-
-    return -1
 
 
 # beginner series clock
@@ -90,7 +88,7 @@ def sale_hotdogs(n):
     return n * 100 if n < 5 else n * 95 if n < 10 else n * 90
 
 
-def sale_hotdogs(n):
+def sale_hotdogs1(n):
     return n * (100 if n < 5 else 95 if n < 10 else 90)
 
 
@@ -99,8 +97,10 @@ def repeat_str(n, s):
 
     return repeats
 
-def repeat_str(repeat, string):
+
+def repeat_str1(repeat, string):
     return repeat * string
+
 
 # checks if item is an instance of specified item
 def filter_list(l):
@@ -129,6 +129,7 @@ def other_angle(a,b):
 def area_or_perimeter(l , w):
     return l * w if l == w else l * 2 + w * 2
 
+
 def accum(s):
     return '-'.join([i.upper()+ i.lower() *(index)for index, i in enumerate(s)])
 
@@ -142,7 +143,7 @@ def reverse_list(l):
     return l
 
 
-def reverse_list(l):
+def reverse_list1(l):
   return l[::-1]
 
 
@@ -154,6 +155,24 @@ def increment_string(strng):
     digits = str(int(digits) + 1).zfill(len(digits))
     return letters + digits
 
+
 def grasshopper(l,c,ch):
     return l + c + ch
+
+
+def abbrev_name(name):
+    abbreviate = []
+    names = name.split()
+
+    for i in names:
+        if i:
+            abbreviate.append(i[0].upper())
+
+    abbreviated = '.'.join(abbreviate)
+    return abbreviated
+
+
+def abbrevname(name):
+    return '.'.join(i[0] for i in name.split()).upper()
+
 
