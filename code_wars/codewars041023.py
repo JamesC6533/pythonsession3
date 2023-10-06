@@ -2,27 +2,33 @@
 def solution(text, ending):
     return text.endswith(ending)
 
+
 # opposite number
 def opposite(number):
     return -number
+
 
 # binary addition
 def add_binary(a,b):
     binary = bin(a + b)
     return str(binary)[2:]
 
+
 # convert to boolean to string
 def boolean_to_string(b):
     return str(b)
+
 
 # removes vowls from a sting
 def disemvowel(string_):
     vowels = "aeiouAEIOU"
     return "".join([i for i in string_ if i not in vowels])
 
+
 # Convert a Number to a String!
 def number_to_string(num):
     return str(num)
+
 
 # bouncing balls
 def bouncing_ball(h, bounce, window):
@@ -37,12 +43,14 @@ def bouncing_ball(h, bounce, window):
 
     return -1
 
+
 # beginner series clock
 def past(h, m, s):
     hours = h * 3600
     minutes = m * 60
 
     return (hours + minutes + s) * 1000
+
 
 # calculates the sum of people
 def number(bus_stops):
@@ -148,3 +156,4 @@ def increment_string(strng):
 
 def grasshopper(l,c,ch):
     return l + c + ch
+
