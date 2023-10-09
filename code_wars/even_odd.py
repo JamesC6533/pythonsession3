@@ -25,8 +25,8 @@ def remove_every_other(my_list):
     return my_list[::2]
 
 
-def reverse_words(str):
-    return ' '.join(s[::-1] for s in str.split(' '))
+def reverse_words(text):
+    return ' '.join(i[::-1] for i in text.split(' '))
 
 
 def reverse_words1(text):
