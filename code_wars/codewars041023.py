@@ -219,12 +219,12 @@ def get_middle3(s):
     return s[len(s)//2] if len(s) % 2 != 0 else s[len(s)//2-1:len(s)//2+1]
 
 
-def solution1(N):
+def solution1(n):
 
-    if N % 10 == 0:
-        return N + 10
+    if n % 10 == 0:
+        return n + 10
     else:
-         return (N// 10 + 1)*10
+         return (n// 10 + 1)*10
 
 
 def solutions(S):
@@ -269,6 +269,170 @@ def solution2(S):
         else:
             result += current_op * diction.get(i , 0)
     return result
+
+
+def printer_error(s):
+    # Define the range of valid colors (a to m)
+    valid_colors = set("abcdefghijklm")
+
+    # Count the number of characters in the string that are not in the valid colors
+    error_count = sum(1 for char in s if char not in valid_colors)
+
+    # Calculate the error rate as a string in the requested format
+    error_rate = f"{error_count}/{len(s)}"
+
+    return error_rate
+
+
+def printer_errors(s):
+    errors = 0
+    count = len(s)
+    for i in s:
+        if i > "m":
+            errors += 1
+    return str(errors) + "/" + str(count)
+
+
+def printer_error1(s):
+    good_colors = "abcdefghijklm"
+    counter = 0
+    for i in s:
+        if i not in good_colors:
+            counter += 1
+    return str(counter) + "/" + str(len(s))
+
+
+def find_needle(haystack):
+    index = haystack.index("needle")
+    return f"found the needle at position {index}"
+
+
+def find_needles(haystack):
+    position = 0
+    for range in haystack:
+        if (range == 'needle'):
+            return 'found the needle at position %s' % (position)
+        else:
+            position += 1
+
+
+def check(seq, elem):
+    return True if elem in seq else False
+
+
+def checks(seq, elem):
+    return elem in seq
+
+
+def zero_fuel(distance_to_pump, mpg, fuel_left):
+    return distance_to_pump <= mpg * fuel_left
+
+
+def smash(words):
+    return " ".join(words)
+
+
+def is_isogram(string):
+    string = string.lower()
+
+    seen = set()
+
+    for i in string:
+        if i.isalpha():
+            if i in seen:
+                return False
+
+        seen.add(i)
+
+    return True
+
+
+def is_isograms(string):
+    return len(string) == len(set(string.lower()))
+
+
+def is_isogram1(string):
+    s = set(string.lower())
+    if len(s) == len(string):
+        return True
+    return False
+
+
+def sum_two_smallest_numbers(numbers):
+    sorted_numbers = sorted(numbers)
+
+    lowest_numbers = sorted_numbers[:2]
+
+    return sum(lowest_numbers)
+
+
+def sum_two_smallest_numbers1(numbers):
+    return sum(sorted(numbers)[:2])
+
+
+def better_than_average(class_points, your_points):
+    class_average = (sum(class_points) + your_points) / (len(class_points) + 1)
+    return your_points > class_average
+
+
+def better_than_average1(class_points, your_points):
+    return your_points > sum(class_points) / len(class_points)
+
+
+import math
+
+
+def find_next_square(sq):
+    if math.isqrt(sq)**2 == sq:
+        next_sq = (math.isqrt(sq) + 1) ** 2
+        return next_sq
+    else:
+        return -1
+
+
+def find_next_squared(sq):
+    sqrt=sq**(0.5)
+    if sqrt % 1 == 0:
+        return (sqrt+1)**2
+    return -1
+
+
+def get_count(sentence):
+    vowels = set("aeiou")
+
+    count = 0
+
+    for i in sentence:
+        if i in vowels:
+            count += 1
+
+    return count
+
+
+def get_count1(sentence):
+    return sum(i in 'aeiou' for i in sentence)
+
+
+def count_by(x, n):
+    multiples = [x * i for i in range(1, n + 1)]
+    return multiples
+
+
+def count_by1(x, n):
+    arr = []
+    for num in range(1, n+1):
+        result = x * num
+        arr.append(result)
+    return arr
+
+
+def dna_to_rna(dna):
+    rna = dna.replace('T', 'U')
+    return rna
+
+
+def dna_to_rna1(dna):
+    return dna.replace("T", "U")
 
 
 
