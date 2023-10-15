@@ -435,8 +435,55 @@ def dna_to_rna1(dna):
     return dna.replace("T", "U")
 
 
+def odd_or_even1(arr):
+    n = sum(arr)
+    return "odd" if n % 2 != 0 else "even"
+
+
+def odd_or_even(arr):
+    return 'even' if sum(arr) % 2 == 0 else 'odd'
+
+
+def solutionb(string):
+    reversed_string = string[::-1]
+
+    return reversed_string
+
+
+def solutionz(string):
+    return ''.join(i for i in reversed(string))
+
+
+def open_or_senior(data):
+    return ["Senior" if i[0] >= 55 and i [1] > 7 else "Open" for i in data]
+
+
+def open_or_senior1(data):
+    res = []
+    for i in data:
+      if i[0] >= 55 and i[1] > 7:
+        res.append("Senior")
+      else:
+        res.append("Open")
+    return res
+
+
+def greet(name, owner):
+    return "Hello boss" if name == owner else "Hello guest"
+
+
+def alphabet_position(text):
+    res = []
+
+    for i in text:
+        if i.isalpha():
+            i = i.lower()
+            position = ord(i) - ord('a') + 1
+            res.append(str(position))
+    return ' '.join(res)
 
 
 
-
+def alphabet_position1(s):
+  return " ".join(str(ord(c)-ord("a")+1) for c in s.lower() if c.isalpha())
 
